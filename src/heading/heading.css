@@ -1,0 +1,31 @@
+header
+{
+    color: #defcad;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.headingFont {
+    font-size: 30px;
+}
+
+.debug {
+    font-size: 20px;
+}
+
+.logo {
+    width: 5.5rem;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    border: solid 1px #ffffff;
+    border-radius: 100%;
+
+    /* how does this make the logo be in the center? */
+    display: inline-block;
+}
+
+
+#header { align-items: center;}
+

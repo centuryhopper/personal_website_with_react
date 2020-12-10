@@ -1,0 +1,58 @@
+body
+{
+    /* font-family: "Lucida Console", Sertig; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.grid_container
+{
+  display: grid;
+  row-gap: 59px;
+}
+
+.hrColor
+{
+    /* background-color: rgb(144, 228, 19); */
+    background-color: #ABDF57;
+    width: 50%;
+    height: 0.25rem;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.background
+{
+    background: linear-gradient(
+    rgba(114, 114, 114, 0.611),
+    rgba(114, 114, 114, 0.611) ) ,
+    url("../images/mountain.jpg");
+
+    /* background-image: url("../images/mountain.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-attachment: fixed;
+
+    -webkit-background-size: 100% auto;
+
+    -moz-background-size: 100% auto;
+
+    -ms-background-size: 100% auto;
+
+    -o-background-size: 100% auto;
+
+    background-size: 100% auto;
+
+    color: aliceblue;
+}
+
+footer div a
+{
+    text-decoration: none !important;
+    color: greenyellow;
+}
+
+
